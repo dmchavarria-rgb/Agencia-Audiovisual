@@ -22,3 +22,32 @@ El diseño sigue un enfoque **mobile first**, adaptándose a diferentes disposit
 - **GitHub Pages** para la publicación en línea.  
 
 ## 📂 Estructura del proyecto
+Agencia Audiovisual Corporativa
+├── 📁 css
+│   ├── 🎨 general.css
+│   ├── 🎨 index.css
+│   └── 🎨 responsive.css
+├── 📁 img
+│   ├── 📁 video
+│   │   └── 🎬 videoejemplo.mp4
+│   ├── 🖼️ Favicon.png
+│   ├── 📄 hero.jfif
+│   ├── 🖼️ logo.jpg
+│   ├── 📄 servicio1.jfif
+│   └── 📄 servicio2.jfif
+├── 📕 Agencia Audiovisual_Chavarria_Matamoros_Dayana.pdf
+├── 📝 README.md
+└── 🌐 index.html
+
+---
+
+## 📑 Informe técnico obligatorio
+El informe debe explicar:
+- El proceso de desarrollo de la landing page.  
+- Cómo se aplicó el enfoque **mobile first**.  
+- Evidencia del uso de **Bootstrap 5** (container, filas y columnas, responsive, espaciados, botones, tarjetas, alineación, texto, imágenes responsive, carrusel).  
+- Adaptaciones personalizadas con CSS propio.  
+- Pruebas realizadas en los tres tamaños requeridos: **375px (móvil)**, **768px (tableta)** y **1366px (computadora)**.  
+- Capturas de pantalla de cada versión.  
+- Conclusiones sobre la experiencia de diseño y desarrollo.  
+
