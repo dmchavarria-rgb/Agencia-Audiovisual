@@ -22,11 +22,15 @@ El diseño sigue un enfoque **mobile first**, adaptándose a diferentes disposit
 - **GitHub Pages** para la publicación en línea.  
 
 ## 📂 Estructura del proyecto
-Agencia Audiovisual Corporativa
+Agencia Audiovisual Corporativa`
+
+```
 ├── 📁 css
 │   ├── 🎨 general.css
 │   ├── 🎨 index.css
 │   └── 🎨 responsive.css
+├── 📁 docs
+│   └── 📕 Agencia Audiovisual_Chavarria_Matamoros_Dayana.pdf
 ├── 📁 img
 │   ├── 📁 video
 │   │   └── 🎬 videoejemplo.mp4
@@ -35,9 +39,11 @@ Agencia Audiovisual Corporativa
 │   ├── 🖼️ logo.jpg
 │   ├── 📄 servicio1.jfif
 │   └── 📄 servicio2.jfif
-├── 📕 Agencia Audiovisual_Chavarria_Matamoros_Dayana.pdf
 ├── 📝 README.md
 └── 🌐 index.html
+```
+
+---
 
 ---
 
