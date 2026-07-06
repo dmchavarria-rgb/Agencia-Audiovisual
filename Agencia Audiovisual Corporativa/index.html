@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agencia Audiovisual Corporativa</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.jpg" alt="Logo Agencia" width="40"> Agencia Audiovisual Dayan
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+             <li class="nav-item"><a class="nav-link" href="#indicadores">Datos Destacados</a></li>
+            <li class="nav-item"><a class="nav-link" href="#comentarios">Comentarios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#registro">Regístrate</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Iconos superiores a la derecha -->
+    <div class="text-end bg-light py-2 pe-4">
+      <i class="bi bi-camera" style="font-size:1.5rem; color:var(--color-rosado-frio); margin:5px;"></i>
+      <i class="bi bi-mic" style="font-size:1.5rem; color:var(--color-lavanda); margin:5px;"></i>
+      <i class="bi bi-film" style="font-size:1.5rem; color:var(--color-azul-nube); margin:5px;"></i>
+      <i class="bi bi-play-circle" style="font-size:1.5rem; color:var(--color-rosado-frio); margin:5px;"></i>
+      <i class="bi bi-lightbulb" style="font-size:1.5rem; color:var(--color-gris-oscuro); margin:5px;"></i>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="text-center py-5 bg-light">
+    <div class="container">
+      <h1 class="mb-3">Producción Audiovisual Corporativa</h1>
+      <p class="lead">Creamos contenido visual que conecta tu marca con tu público.</p>
+      <a href="#servicios" class="btn btn-primary btn-lg">Conoce nuestros servicios</a>
+      <img src="img/hero.jfif" alt="Producción audiovisual" class="img-fluid mt-4">
+    </div>
+  </section>
+  <!-- Presentación de la Empresa -->
+<section id="presentacion" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Presentación de la Empresa</h2>
+
+    <details>
+      <summary><strong>¿Quién es la empresa?</strong></summary>
+      <p>Somos una agencia audiovisual corporativa especializada en la creación de contenido visual de alto impacto.</p>
+    </details>
+
+    <details>
+      <summary><strong>¿Qué ofrece?</strong></summary>
+      <p>Ofrecemos servicios de producción de videos corporativos, fotografía comercial y campañas de contenido creativo.</p>
+    </details>
+
+    <details>
+      <summary><strong>¿A qué público se dirige?</strong></summary>
+      <p>Nos dirigimos a empresas, marcas y emprendedores que buscan fortalecer su comunicación visual.</p>
+    </details>
+
+    <details>
+      <summary><strong>¿Qué problema ayuda a resolver?</strong></summary>
+      <p>Ayudamos a mejorar la presencia de marca, captar clientes y transmitir mensajes claros y atractivos mediante recursos audiovisuales.</p>
+    </details>
+  </div>
+</section>
+
+  <!-- Servicios con imágenes y video -->
+<section id="servicios" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Nuestros Servicios</h2>
+    <div class="row">
+      
+      <!-- Servicio con VIDEO -->
+      <div class="col-md-12 mb-4">
+        <div class="card">
+          <video class="card-img-top" controls>
+            <source src="videos/videoejemplo.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+          </video>
+          <div class="card-body">
+            <h5 class="card-title">Videos Corporativos</h5>
+            <p class="card-text">Producción audiovisual profesional para empresas.</p>
+            <a href="#registro" class="btn btn-primary">Solicitar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Servicio con IMAGEN -->
+      <div class="col-md-12 mb-4">
+        <div class="card">
+          <img src="img/servicio1.jfif" class="card-img-top" alt="Fotografía comercial">
+          <div class="card-body">
+            <h5 class="card-title">Fotografía Comercial</h5>
+            <p class="card-text">Imágenes de alta calidad para tu marca.</p>
+            <a href="#registro" class="btn btn-primary">Solicitar</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Servicio con IMAGEN -->
+      <div class="col-md-12 mb-4">
+        <div class="card">
+          <img src="img/servicio2.jfif" class="card-img-top" alt="Producción de contenido">
+          <div class="card-body">
+            <h5 class="card-title">Producción de Contenido</h5>
+            <p class="card-text">Campañas visuales creativas y efectivas.</p>
+            <a href="#registro" class="btn btn-primary">Solicitar</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Indicadores o Datos Destacados -->
+<section id="indicadores" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Datos Destacados</h2>
+    <div class="row text-center">
+      
+      <!-- Indicador 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="p-4 bg-white shadow rounded">
+          <h3 class="text-primary">+250</h3>
+          <p>Clientes atendidos</p>
+        </div>
+      </div>
+
+      <!-- Indicador 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="p-4 bg-white shadow rounded">
+          <h3 class="text-success">12</h3>
+          <p>Años de experiencia</p>
+        </div>
+      </div>
+
+      <!-- Indicador 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="p-4 bg-white shadow rounded">
+          <h3 class="text-danger">98%</h3>
+          <p>Satisfacción de clientes</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Comentarios -->
+<section id="comentarios" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Comentarios</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <blockquote class="blockquote">
+          <p>"Gracias a sus videos logramos captar más clientes."</p>
+          <footer class="blockquote-footer">María López, Gerente de Marketing</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-6">
+        <blockquote class="blockquote">
+          <p>"La fotografía comercial elevó la imagen de nuestra marca."</p>
+          <footer class="blockquote-footer">Carlos Pérez, Empresario</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Registro -->
+<section id="registro" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Regístrate</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="correo" required>
+      </div>
+      <div class="mb-3">
+        <label for="telefono" class="form-label">Teléfono</label>
+        <input type="tel" class="form-control" id="telefono">
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+</section>
+
+<!-- Pie de página -->
+<footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      
+      <!-- Información de la empresa -->
+      <div class="col-md-4 mb-3">
+        <h5>Agencia Audiovisual Dayan</h5>
+        <p>Dirección: Av. Principal #123, Quito, Ecuador</p>
+        <p>Correo: contacto@dayan-agencia.com</p>
+        <p>Teléfono: +593 999 999 999</p>
+        <p>Horario: Lunes a Viernes, 9:00 - 18:00</p>
+      </div>
+
+      <!-- Redes sociales -->
+      <div class="col-md-4 mb-3 text-center">
+        <h5>Síguenos</h5>
+        <a href="#" class="text-light me-3"><i class="bi bi-facebook" style="font-size:1.5rem;"></i></a>
+        <a href="#" class="text-light me-3"><i class="bi bi-instagram" style="font-size:1.5rem;"></i></a>
+        <a href="#" class="text-light me-3"><i class="bi bi-twitter" style="font-size:1.5rem;"></i></a>
+        <a href="#" class="text-light"><i class="bi bi-youtube" style="font-size:1.5rem;"></i></a>
+      </div>
+
+      <!-- Derechos reservados -->
+      <div class="col-md-4 mb-3 text-md-end">
+        <p class="mb-0">&copy; 2026 Agencia Audiovisual Dayan. Todos los derechos reservados.</p>
+      </div>
+
+    </div>
+  </div>
+</footer>
