@@ -1,0 +1,22 @@
+/* Mobile first: estilos base para pantallas pequeñas */
+#servicios .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+table {
+  width: 100% !important; /* Fuerza que la tabla ocupe todo el ancho */
+}
+
+th, td {
+  padding: 15px; /* Más espacio interno */
+}
+
+
+/* Escritorio */
+@media (min-width: 992px) {
+    #servicios .row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

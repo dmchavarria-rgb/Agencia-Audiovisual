@@ -1,0 +1,26 @@
+/* Variables de colores */
+:root {
+    --color-lavanda: #D9D2F0;
+    --color-azul-nube: #C5D9E8;
+    --color-rosado-frio: #E7CCD8;
+    --color-gris-oscuro: #4F5663;
+}
+
+/* Aplicación rápida */
+body {
+    background-color: var(--color-azul-nube);
+    color: var(--color-gris-oscuro);
+}
+
+h1, h2, h3 {
+    color: var(--color-gris-oscuro);
+}
+
+.btn-primary {
+    background-color: var(--color-lavanda);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-rosado-frio);
+}
